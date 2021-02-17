@@ -1,5 +1,14 @@
 #include <stdio.h>
-int main()
-{ printf("HelloWorld\n");
 
+
+void print_string() {
+	printf("stuff");
+}
+
+
+int main()
+{ 
+	printf("%s\n" , "HelloWorld");
+	print_string();
+	return (0);
 }
